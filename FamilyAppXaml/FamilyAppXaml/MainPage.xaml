@@ -3,9 +3,103 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FamilyAppXaml"
              x:Class="FamilyAppXaml.MainPage">
-
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
-
+    <ScrollView>
+      <StackLayout>
+        <StackLayout.Children>
+      <Label BackgroundColor="Teal">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" FontSize="Large" >
+              <Span.Text>
+                Mary
+              </Span.Text>
+            </Span>
+            <Span FontSize="Medium">
+              <Span.Text>
+                This is me! I'm an application developer and technical instructor.
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      <Label BackgroundColor="Red">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" Text="Martin"  FontSize="Large" />
+            <Span FontSize="Medium">
+              <Span.Text>
+                My most awesome husband! He does accounting.
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      <Label BackgroundColor="Green">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" Text="Skadi"  FontSize="Large" />
+            <Span FontSize="Medium">
+              <Span.Text>
+                Our big pup. She's about 100lbs, and that's not fat. She might be part St. Bernard, but has fur more like a Golden.
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      <Label BackgroundColor="Gray">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" Text="Bart" FontSize="Large" />
+            <Span FontSize="Medium">
+              <Span.Text>
+                The old man cat. He's been with me since I first moved out on my own and is almost 21 years old!
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      <Label BackgroundColor="Pink">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" Text="Abby"  FontSize="Large" />
+            <Span FontSize="Medium">
+              <Span.Text>
+                Our little girl cat. She's an excellent mouser. One of the 3 backyard born strays we've taken in.
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      <Label BackgroundColor="Yellow">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" Text="Kyo" FontSize="Large"  />
+            <Span FontSize="Medium">
+              <Span.Text>
+                The particular orange tabby of the family.  While his fellow litter mates ran off, he just looked at me as I scooped him into a flower pot and brought him home.
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      <Label BackgroundColor="Blue">
+        <Label.FormattedText>
+          <FormattedString>
+            <Span FontAttributes="Bold" Text="Fred"  FontSize="Large" />
+            <Span FontSize="Medium">
+              <Span.Text>
+                One of the last kittens from our neighborhood momma cat.  He's a big cat, but has the softest sandy colored fur.
+              </Span.Text>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+      
+      <Label BackgroundColor="Lime" FontSize="Small" VerticalOptions="EndAndExpand" >
+        <Label.Text>That's my family!</Label.Text>
+      </Label>
+          
+        </StackLayout.Children>
+    </StackLayout>
+  </ScrollView>
 </ContentPage>
